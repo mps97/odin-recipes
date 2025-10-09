@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    text-align: center;
+    margin: 10px auto;
+}
+
+h1 {
+    font-size: xx-large;
+    width: 500px;
+    background-color: antiquewhite;
+    padding: 10px;
+    margin: 50px auto;
+    outline: auto;
+}
+
+ul {
+    display: block;
+    width: 450px;
+}
+
+li {
+    outline: auto;
+    padding: 10px;
+    background-color: aliceblue;
+}
