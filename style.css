@@ -6,6 +6,10 @@
     margin: 10px auto;
 }
 
+img {
+    outline: auto;
+}
+
 h1 {
     font-size: xx-large;
     width: 500px;
@@ -15,13 +19,53 @@ h1 {
     outline: auto;
 }
 
+h2 {
+    font-size: x-large;
+    width: 400px;
+    padding: 10px;
+    margin: 20px auto;
+    background-color: black;
+    color: white;
+}
+
 ul {
     display: block;
     width: 450px;
+    margin: 0;
+    padding: 0;
 }
 
-li {
+ol {
+    margin: 0;
+    padding: 0;
+}
+
+.recipes-link {
+    display: grid;
+}
+
+.list-link {
     outline: auto;
     padding: 10px;
     background-color: aliceblue;
+}
+
+.home-link {
+    outline: auto;
+    padding: 10px;
+    background-color: aliceblue;
+}
+
+.ingredients {
+    
+    margin-left: 250px;
+    margin-right: 100px;
+    text-align: left;
+}
+
+.steps {
+    
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: left;
 }
